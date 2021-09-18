@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-139044519-7', 'auto');
+    ga('send', 'pageview');
+  </script>
+  </head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/64875a777d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class = "homepage"> 
+    <section class="section1">
+      <header class="top-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="" class="logo"> <img src="blackbuck-logo.svg" alt="Blackbuck"></a>
+      </div>    
+        <div class="col-sm-9">
+        <nav class="main-nav">
+          <ul class="main-links">
+            <li>
+              <a href="">Company</a>            </li>
+            <li class="prod-link">
+              <a href="">Products</a>            </li>
+            <li>
+              <a href="">Team</a>            </li>
+            <li>
+              <a href="">Careers</a>            </li>
+
+            <li>
+              <a href="">Contact</a>            </li>
+            <li>
+              <a href="" class="signin">Sign In</a>            </li>
+              </ul>
+        </nav>
+        <div class="navbtn">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-slider">
+    <button class="close"></button>
+    <img src="blackbuck-logo.svg" alt="Blackbuck" class="logo">
+    <nav class="sidebar-nav">
+      <ul class="main-links">
+        <li>
+          <span class="static">Home</span>        </li>
+        <li>
+          <a href="">Company</a>        </li>
+        <li class="prod-link">
+          <a href="">Products</a>        </li>
+        <li>
+          <a href="">Team</a>        </li>
+        <li>
+          <a href="">Careers</a>        </li>
+
+        <li>
+          <a href="">Contact</a>        </li>
+                      </ul>
+         <ul class="social">
+        <li><a href="https://www.facebook.com/blackbucklogistics/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/blackbuck" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+        <li><a href="https://www.youtube.com/channel/UCbyL5ThNIRgDQdB45s6CBMQ/videos" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+</header>
+<script>
+$(document).ready(function() {
+    $('#lang-selector').change(function(){
+      var lang = event.target.value;
+      var url = window.location.origin + window.location.pathname;
+      if(lang){
+        url = url + '?lang=' + lang;
+      }
+      window.location.href = url;
+    })
+  });
+</script>      <div class="container">
+<div class="banner-content">
+          <h1>India's largest trucking platform</h1>
+        </div>
+      </div>
+      <div id="myvideo">
+        <div class="video-wrap hidden-xs">
+          <video autoplay loop id="usbvideo" tabindex="0" class="al-img100">
+            <source src="blackbuck-homepage.mp4" type="video/mp4">
+            <source src="blackbuck-homepage.webm" type="video/webm">
+          </video>
+        </div>
+      </div>
+      <div class="video-overlay"></div>
+      <a class="btn btn-primary discover-bb" href="" >Discover Blackbuck</a>
+    </section>
+
+
+      <footer>
+    <div class="container">
+        <span class="copyright">&copy; BlackBuck</span>
+        <nav>
+  <ul class="foolinks">
+    <li><a href="">Company</a></li>
+    <li><a href="">Products</a></li>
+    <li><a href="">Team</a></li>
+    <li><a href="">Careers</a></li>
+    <li><a href="">Contact</a></li>
+    <li><a href="">Terms & Conditions</a></li>
+    <li><a href="">Privacy Policy</a></li>
+  </ul>
+</nav>        <ul class="social">
+  <li><a href="https://www.facebook.com/blackbucklogistics/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.linkedin.com/company/blackbuck/" target="_blank" > <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+  <li><a href="https://www.youtube.com/channel/UCbyL5ThNIRgDQdB45s6CBMQ/videos" target="_blank" ><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+  <li><a href="https://twitter.com/blackbuck" target="_blank" ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+  <li><a class="eng-blackbuck" href="https://eng.blackbuck.com" target="_blank" ><img class="eng-blackbuck" src="eng-blackbuck.png"></i></a></li>
+</ul> 
+    </div>
+  </footer>
+        <script src="" async defer></script>
+        <script>
+    $(document).ready(function () { 
+    var $elem7 = $('.thumbnail');
+  var inview7 = new Waypoint.Inview({
+    element: $elem7[0],
+    enter: function (up) {
+      $elem7.addClass('animate');
+    },
+  }); 
+    
+});
+
+$(document).ready(function() {
+     $('#usbvideo').prop('muted',true).play()
+ });
+    </body>
+</html>
